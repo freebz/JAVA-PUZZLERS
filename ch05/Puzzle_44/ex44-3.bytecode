@@ -1,0 +1,13 @@
+0: new           #2     // class Missing
+3: dup
+4: invokespecial #3     // Method Missing."<init>":()V
+7: astore_1
+8: goto          20
+11: astore_1
+12: getstatic     #5    // Field java/lang/System.out:Ljava/io/PrintStream;
+15: ldc           #6    // String Got it!
+17: invokevirtual #7    // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+20: return
+Exception table:
+ from    to  target type
+   0     8    11   Class java/lang/NoClassDefFoundError
